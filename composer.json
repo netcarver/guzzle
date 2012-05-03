@@ -1,0 +1,31 @@
+{
+    "name": "shoebacca/guzzle",
+    "type": "library",
+    "description": "Guzzle PHP client for Unfuddle",
+    "keywords": ["framework", "Unfuddle"],
+    "homepage": "http://www.guzzlephp.org/",
+    "license": "SHOEBACCA",
+    "authors": [
+        {
+            "name": "Michael Dowling",
+            "email": "michael@guzzlephp.org"
+        },
+        {
+            "name": "Guzzle Community",
+            "homepage": "https://github.com/guzzle/guzzle-unfuddle/contributors"
+        },
+        {
+            "name": "Shoebacca Dev Team",
+            "homepage": "https://github.com/shoebacca"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { 
+            "Guzzle": "src/",
+            "Guzzle\\Tests": "tests/"
+        }
+    }
+}
