@@ -204,7 +204,7 @@ class Request extends AbstractMessage implements RequestInterface
                 '[status code] ' . $response->getStatusCode(),
                 '[reason phrase] ' . $response->getReasonPhrase(),
                 '[url] ' . $request->getUrl(),
-                '[request] ' . (string) $request,
+                //'[request] ' . (string) $request,
                 '[response] ' . (string) $response
             );
             $e = new BadResponseException('Unsuccessful response | ' . implode(' | ', array_filter($messageParts, function($message) {
