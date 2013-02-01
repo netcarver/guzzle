@@ -18,16 +18,6 @@ namespace Guzzle\Common;
 class XmlElement extends \SimpleXMLElement
 {
     /**
-     * Magic method, alias of toXML()
-     *
-     * @return string
-     */
-    public function __toString()
-    {
-        return $this->asXML();
-    }
-
-    /**
      * Extended addChild method - supports appending another Element
      *
      * @param string|Element $name
